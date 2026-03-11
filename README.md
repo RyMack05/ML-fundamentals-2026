@@ -3,7 +3,7 @@
 ### Date: March 11th, 2026
 ### Class: Individual Assignment 1 for IE University Introduction to ML Class with Matteo Turilli Spring 2026
 
-This project is part of my Machine Learning Foundations course. 
+The goal of this project is to properly prepare and model the bank marketing dataset in order to predict the target variable y, which represents whether a client ends up subscribing to a term deposit (“yes” or “no”).
 
 The dataset comes from a Portuguese bank’s marketing campaign and includes client demographics, financial information, and campaign details. The goal is to predict whether a client subscribes to a term deposit.
 
