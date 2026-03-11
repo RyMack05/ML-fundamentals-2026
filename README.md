@@ -4,10 +4,10 @@
 ### Class: Individual Assignment 1 for IE University Introduction to ML Class 
 ### Professor: Matteo Turilli
 
-The goal of this project is to properly prepare and model the bank marketing dataset in order to predict the target variable y, which represents whether a client ends up subscribing to a term deposit (“yes” or “no”).
+The goal of this project is to build a machine learning pipeline to predict the target variable y, which indicates whether a client subscribes to a term deposit using demographic and campaign-related features from the bank marketing dataset.
 
-The dataset comes from a Portuguese bank’s marketing campaign and includes client demographics, financial information, and campaign details. The goal is to predict whether a client subscribes to a term deposit.
+This project uses the UCI Bank Marketing dataset, which contains information from direct marketing campaigns conducted by a Portuguese bank. The target variable `y` indicates whether a client subscribed to a term deposit (“yes” or “no”) after being contacted.
 
-In this notebook, I build a full preprocessing pipeline: identifying the correct prediction target, exploring the data, handling missing values (including “unknown” categories), performing stratified train/validation/test splits, feature selection, encoding, scaling, and finally training and evaluating a Logistic Regression model.
+The goal of this assignment is not to maximize model performance, but to correctly prepare the data so a model can be built reliably. 
 
-The focus is on disciplined pipeline design and avoiding data leakage rather than maximizing performance.
+The notebook focuses on exploratory analysis, handling explicit and implicit missing values, encoding categorical variables, scaling numerical features, managing class imbalance, and preventing data leakage. A Logistic Regression model is trained at the end as a sanity check.
