@@ -1,7 +1,8 @@
 # ML-fundamentals-1-2026
 ## Author: Ryann K Mack
 ### Date: March 11th, 2026
-### Class: Individual Assignment 1 for IE University Introduction to ML Class with Matteo Turilli Spring 2026
+### Class: Individual Assignment 1 for IE University Introduction to ML Class 
+### Professor: Matteo Turilli
 
 The goal of this project is to properly prepare and model the bank marketing dataset in order to predict the target variable y, which represents whether a client ends up subscribing to a term deposit (“yes” or “no”).
 
